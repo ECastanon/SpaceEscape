@@ -24,7 +24,16 @@ namespace NavKeypad
             }
         }
         private bool moving;
+        bool hitonce = false;
 
+        private void OnCollisionEnter(Collision other)
+        {
+            if(other.gameObject.name.Contains("hand") && !hitonce)
+            {
+                hitonce = true;
+                PressButton();
+            }
+        }
         private IEnumerator MoveSmooth()
         {
 
