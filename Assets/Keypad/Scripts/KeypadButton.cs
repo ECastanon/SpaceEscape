@@ -26,9 +26,9 @@ namespace NavKeypad
         private bool moving;
         bool hitonce = false;
 
-        private void OnCollisionEnter(Collision other)
+        private void OnTriggerEnter(Collider other)
         {
-            if(other.gameObject.name.Contains("hand") && !hitonce)
+            if(other.gameObject.name.Contains("finger") && !hitonce)
             {
                 hitonce = true;
                 PressButton();
@@ -36,7 +36,6 @@ namespace NavKeypad
         }
         private IEnumerator MoveSmooth()
         {
-
             moving = true;
             Vector3 startPos = transform.localPosition;
             Vector3 endPos = transform.localPosition + new Vector3(0, 0, moveDist);

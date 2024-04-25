@@ -9,9 +9,10 @@ public class keypadcam : MonoBehaviour
     public GameObject Panel;
     public GameObject Player;
     public GameObject keypad;
+
+    [SerializeField] private string correctCombination;
+    public string userEnteredCombination;
     
-
-
     void Update()
     {
         // Check for the "E" key press only when the player is inside the collider
@@ -51,5 +52,18 @@ public class keypadcam : MonoBehaviour
             Panel.SetActive(false);
             Debug.Log("keypad OFF");
         }
+    }
+    public void EnterCombinationValue(string number)
+    {
+        userEnteredCombination += number;
+
+        if(userEnteredCombination.Length >= 4)
+        {
+
+        }
+    }
+    private void CheckCorrectCombo()
+    {
+
     }
 }
