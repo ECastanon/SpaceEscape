@@ -8,14 +8,14 @@ public class Player : MonoBehaviour
     [SerializeField] private float turnSpeed = 50f;
     [SerializeField] private float mouseSensitivity = 2f;
 
-    private Animator animator;
+    //private Animator animator;
 
     private float rotationX = 0f;
 
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Animator>();
+        //animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
         var velocity = Vector3.forward * forwardInput * speed;
         transform.Translate(velocity * Time.deltaTime);
         transform.Rotate(Vector3.up, horizontalInput * Time.deltaTime * turnSpeed);
-        animator.SetFloat("Speed", velocity.z);
+        //animator.SetFloat("Speed", velocity.z);
 
         // Mouse Look
         var mouseX = Input.GetAxis("Mouse X") * mouseSensitivity;
@@ -41,6 +41,9 @@ public class Player : MonoBehaviour
         rotationX -= mouseY * mouseSensitivity * turnSpeed * Time.deltaTime;
         rotationX = Mathf.Clamp(rotationX, -90f, 90f);
 
-        Camera.main.transform.localRotation = Quaternion.Euler(rotationX, 0f, 0f);
+        if (Camera.main != null)
+        {
+            Camera.main.transform.localRotation = Quaternion.Euler(rotationX, 0f, 0f);
+        }
     }
 }
