@@ -145,19 +145,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5979811181a0e814fb84ba14dc4ec95b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.623
+      value: 7.403
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5979811181a0e814fb84ba14dc4ec95b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.837
+      value: 1.023
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5979811181a0e814fb84ba14dc4ec95b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.369327
+      value: 11.894
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5979811181a0e814fb84ba14dc4ec95b, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5979811181a0e814fb84ba14dc4ec95b, type: 3}
       propertyPath: m_LocalRotation.x
@@ -169,7 +169,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5979811181a0e814fb84ba14dc4ec95b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5979811181a0e814fb84ba14dc4ec95b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -181,16 +181,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5979811181a0e814fb84ba14dc4ec95b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5979811181a0e814fb84ba14dc4ec95b, type: 3}
       propertyPath: m_Name
-      value: word puzzle lock word cylander 3
+      value: Lock3
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5979811181a0e814fb84ba14dc4ec95b, type: 3}
+      propertyPath: m_TagString
+      value: Three
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5979811181a0e814fb84ba14dc4ec95b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1278199111}
   m_SourcePrefab: {fileID: 100100000, guid: 5979811181a0e814fb84ba14dc4ec95b, type: 3}
 --- !u!1001 &64733570
 PrefabInstance:
@@ -214,19 +221,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6eeaaf57db6edb4eb88823733e17329, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.583
+      value: 6.136
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6eeaaf57db6edb4eb88823733e17329, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.804
+      value: 1.253
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6eeaaf57db6edb4eb88823733e17329, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.379
+      value: 19.423
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6eeaaf57db6edb4eb88823733e17329, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6eeaaf57db6edb4eb88823733e17329, type: 3}
       propertyPath: m_LocalRotation.x
@@ -238,7 +245,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6eeaaf57db6edb4eb88823733e17329, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6eeaaf57db6edb4eb88823733e17329, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -250,16 +257,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c6eeaaf57db6edb4eb88823733e17329, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: c6eeaaf57db6edb4eb88823733e17329, type: 3}
       propertyPath: m_Name
-      value: word puzzle lock word cylander 4
+      value: Lock4
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c6eeaaf57db6edb4eb88823733e17329, type: 3}
+      propertyPath: m_TagString
+      value: Four
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c6eeaaf57db6edb4eb88823733e17329, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1879625795}
   m_SourcePrefab: {fileID: 100100000, guid: c6eeaaf57db6edb4eb88823733e17329, type: 3}
 --- !u!1001 &104989603
 PrefabInstance:
@@ -650,19 +664,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d71eabea2d96294481d54b40b44dca9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.468
+      value: -0.584
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d71eabea2d96294481d54b40b44dca9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.873
+      value: 0.126
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d71eabea2d96294481d54b40b44dca9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.268
+      value: 16.283
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d71eabea2d96294481d54b40b44dca9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d71eabea2d96294481d54b40b44dca9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -674,7 +688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d71eabea2d96294481d54b40b44dca9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d71eabea2d96294481d54b40b44dca9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -686,16 +700,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1d71eabea2d96294481d54b40b44dca9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1d71eabea2d96294481d54b40b44dca9, type: 3}
       propertyPath: m_Name
-      value: word puzzle lock word cylander 6
+      value: Lock6
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1d71eabea2d96294481d54b40b44dca9, type: 3}
+      propertyPath: m_TagString
+      value: Six
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1d71eabea2d96294481d54b40b44dca9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1440835431}
   m_SourcePrefab: {fileID: 100100000, guid: 1d71eabea2d96294481d54b40b44dca9, type: 3}
 --- !u!1001 &158783715
 PrefabInstance:
@@ -827,6 +848,25 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fb07e96bb0cae643a28994c86ddc64e, type: 3}
+--- !u!1 &313227738 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 2e394fa3e87173344b3d6e10b10bf249, type: 3}
+  m_PrefabInstance: {fileID: 1691510222}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &313227742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313227738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64312794ab7e94403870f92d7c8733db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 858921476}
+  holdDistance: 2
 --- !u!1001 &358143770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -889,7 +929,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 9b3d5b6cd52f989418af3cc554a54248, type: 3}
       propertyPath: m_Name
-      value: word puzzle lock without word cylanders opened version
+      value: MainPuzzel
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7197,15 +7237,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5909d4e2b25a5ef4a8bfe7f0b6e6053a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.742
+      value: -5.718
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5909d4e2b25a5ef4a8bfe7f0b6e6053a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.834
+      value: 0.836
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5909d4e2b25a5ef4a8bfe7f0b6e6053a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.398
+      value: 19.185
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5909d4e2b25a5ef4a8bfe7f0b6e6053a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7237,12 +7277,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5909d4e2b25a5ef4a8bfe7f0b6e6053a, type: 3}
       propertyPath: m_Name
-      value: word puzzle lock word cylander 1
+      value: Lock1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5909d4e2b25a5ef4a8bfe7f0b6e6053a, type: 3}
+      propertyPath: m_TagString
+      value: One
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5909d4e2b25a5ef4a8bfe7f0b6e6053a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1552716036}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 5909d4e2b25a5ef4a8bfe7f0b6e6053a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1552716035}
   m_SourcePrefab: {fileID: 100100000, guid: 5909d4e2b25a5ef4a8bfe7f0b6e6053a, type: 3}
 --- !u!1001 &1264001237
 PrefabInstance:
@@ -7309,6 +7359,25 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea798cfb4939d4441b95d1bd39d0767f, type: 3}
+--- !u!1 &1278199107 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5979811181a0e814fb84ba14dc4ec95b, type: 3}
+  m_PrefabInstance: {fileID: 14348169}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1278199111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278199107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64312794ab7e94403870f92d7c8733db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 858921476}
+  holdDistance: 2
 --- !u!1 &1311435713
 GameObject:
   m_ObjectHideFlags: 0
@@ -7437,19 +7506,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5acce7868a71d1479f714eea7320e71, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.496
+      value: -2.237
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5acce7868a71d1479f714eea7320e71, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.874
+      value: 0.249
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5acce7868a71d1479f714eea7320e71, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.329
+      value: 9.216
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5acce7868a71d1479f714eea7320e71, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5acce7868a71d1479f714eea7320e71, type: 3}
       propertyPath: m_LocalRotation.x
@@ -7461,7 +7530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5acce7868a71d1479f714eea7320e71, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5acce7868a71d1479f714eea7320e71, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7473,16 +7542,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5acce7868a71d1479f714eea7320e71, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: a5acce7868a71d1479f714eea7320e71, type: 3}
       propertyPath: m_Name
-      value: word puzzle lock word cylander 5
+      value: Lock5
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a5acce7868a71d1479f714eea7320e71, type: 3}
+      propertyPath: m_TagString
+      value: Five
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a5acce7868a71d1479f714eea7320e71, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1643504546}
   m_SourcePrefab: {fileID: 100100000, guid: a5acce7868a71d1479f714eea7320e71, type: 3}
 --- !u!1001 &1374295437
 PrefabInstance:
@@ -7638,8 +7714,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.024724, y: 1.8502724, z: 0.713636}
-  m_Center: {x: 0.09725292, y: 0.9265274, z: -0.020406865}
+  m_Size: {x: 1.024724, y: 1.8502724, z: 1.5992963}
+  m_Center: {x: 0.09725292, y: 0.9265274, z: 0.42242268}
 --- !u!54 &1399481044
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7812,6 +7888,25 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7bfca64f0cf4ef248b199077f3f98357, type: 3}
+--- !u!1 &1440835427 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1d71eabea2d96294481d54b40b44dca9, type: 3}
+  m_PrefabInstance: {fileID: 157136442}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1440835431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440835427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64312794ab7e94403870f92d7c8733db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 858921476}
+  holdDistance: 2
 --- !u!1001 &1499549509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7926,6 +8021,46 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64b3f36e835346747865afbf6cf62acf, type: 3}
+--- !u!1 &1552716034 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 5909d4e2b25a5ef4a8bfe7f0b6e6053a, type: 3}
+  m_PrefabInstance: {fileID: 1235882548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1552716035
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552716034}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22863582, y: 1.3201728, z: 1.8901443}
+  m_Center: {x: -0.16822371, y: 1.5294777, z: -0.028686523}
+--- !u!114 &1552716036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1552716034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64312794ab7e94403870f92d7c8733db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 858921476}
+  holdDistance: 2
 --- !u!850595691 &1590917167
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -7990,6 +8125,25 @@ LightingSettings:
   m_PVRTiledBaking: 0
   m_NumRaysToShootPerTexel: -1
   m_RespectSceneVisibilityWhenBakingGI: 0
+--- !u!1 &1643504542 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a5acce7868a71d1479f714eea7320e71, type: 3}
+  m_PrefabInstance: {fileID: 1364260973}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1643504546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643504542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64312794ab7e94403870f92d7c8733db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 858921476}
+  holdDistance: 2
 --- !u!1001 &1691510222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8012,19 +8166,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2e394fa3e87173344b3d6e10b10bf249, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.702
+      value: -18.581
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2e394fa3e87173344b3d6e10b10bf249, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.808
+      value: 1.23
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2e394fa3e87173344b3d6e10b10bf249, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.368
+      value: 16.215
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2e394fa3e87173344b3d6e10b10bf249, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2e394fa3e87173344b3d6e10b10bf249, type: 3}
       propertyPath: m_LocalRotation.x
@@ -8036,7 +8190,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2e394fa3e87173344b3d6e10b10bf249, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2e394fa3e87173344b3d6e10b10bf249, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8048,16 +8202,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2e394fa3e87173344b3d6e10b10bf249, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 2e394fa3e87173344b3d6e10b10bf249, type: 3}
       propertyPath: m_Name
-      value: word puzzle lock word cylander 2
+      value: Lock2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2e394fa3e87173344b3d6e10b10bf249, type: 3}
+      propertyPath: m_TagString
+      value: Two
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 2e394fa3e87173344b3d6e10b10bf249, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 313227742}
   m_SourcePrefab: {fileID: 100100000, guid: 2e394fa3e87173344b3d6e10b10bf249, type: 3}
 --- !u!1001 &1692043098
 PrefabInstance:
@@ -8121,7 +8282,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 6556c17680ed9f44b905a63586c80a9b, type: 3}
       propertyPath: m_Name
-      value: word puzzle lock
+      value: Display Puzzle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8185,6 +8346,25 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b5797a18349fb546be8acddc71151ff, type: 3}
+--- !u!1 &1879625791 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c6eeaaf57db6edb4eb88823733e17329, type: 3}
+  m_PrefabInstance: {fileID: 64733570}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1879625795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879625791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64312794ab7e94403870f92d7c8733db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTransform: {fileID: 858921476}
+  holdDistance: 2
 --- !u!1001 &1942584685
 PrefabInstance:
   m_ObjectHideFlags: 0
