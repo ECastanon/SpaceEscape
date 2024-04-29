@@ -10,12 +10,13 @@ public class EnemyChase : MonoBehaviour
     private Quaternion mainrotate;
     public GameObject player;
     public GameObject enemy;
-    bool isChasing = false;
+    bool isChasing;
     int counter = 0;
     public GameObject respawn;
 
     void Start()
     {
+        player = GameObject.Find("VRPlayer");
         mainstartpos = enemy.transform.position;
         mainrotate = enemy.transform.rotation;
         startPosition = enemy.transform.position;
@@ -79,6 +80,4 @@ public class EnemyChase : MonoBehaviour
             player.transform.position = respawn.transform.position;
         }
     }
-
-
 }

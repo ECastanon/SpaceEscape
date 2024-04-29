@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_GroundExplose_01
+  m_Shader: {fileID: 4800000, guid: 611f6c893519f874cb39adbb6db99682, type: 3}
+  m_Parent: {fileID: 2100000, guid: f18976b9a4de19b4da161d40595e26ba, type: 2}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaMask:
+        m_Texture: {fileID: 2800000, guid: ba7e675c98084a34481b4cdd83be29e3, type: 3}
+        m_Scale: {x: 3, y: 1}
+        m_Offset: {x: 0, y: 0.08}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a47c10ae956e8b9438f1739d15b7b55c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1, y: 0}
+    - _NoiseAlphaMask:
+        m_Texture: {fileID: 2800000, guid: e8f3ef115095458489f7aed93f543497, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseMainTex:
+        m_Texture: {fileID: 2800000, guid: e8f3ef115095458489f7aed93f543497, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SubAlphaMask:
+        m_Texture: {fileID: 2800000, guid: d64f36f5b6c08884980e170b4e9a6f5c, type: 3}
+        m_Scale: {x: 3, y: 1}
+        m_Offset: {x: 0, y: 1}
+    m_Ints: []
+    m_Floats:
+    - _NoiseAlphaMaskStrength: 0.16
+    - _NoiseStrengthMainTex: 0.5
+    m_Colors:
+    - _SpeedDirMainTex: {r: -0.86, g: 1, b: 0, a: 0}
+    - _SpeedDirSubAlphaMask: {r: -0.05, g: 0.5, b: 0, a: 0}
+    - _Tint_01: {r: 7.620584, g: 7.620584, b: 7.620584, a: 0}
+    - _Tint_02: {r: 17.762638, g: 17.762638, b: 17.762638, a: 0}
+  m_BuildTextureStacks: []

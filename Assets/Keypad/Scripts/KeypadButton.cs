@@ -30,7 +30,7 @@ namespace NavKeypad
         {
             if(other.gameObject.name.Contains("finger") && !hitonce)
             {
-                hitonce = true;
+                //hitonce = true;
                 PressButton();
             }
         }
