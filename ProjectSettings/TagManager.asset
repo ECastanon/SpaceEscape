@@ -11,6 +11,7 @@ TagManager:
   - Five
   - Six
   - Bomb
+  - Sphere
   layers:
   - Default
   - TransparentFX
