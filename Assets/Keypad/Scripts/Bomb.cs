@@ -4,36 +4,58 @@ using UnityEngine;
 
 public class Bomb : MonoBehaviour
 {
-    public float delay = 3f; // Delay in seconds before the bomb explodes
+    public float delay = 3f; // Delay in seconds before the bomb explodes after being triggered
     private float countdown; // Timer to track the countdown
     private bool hasExploded = false; // Flag to check if the bomb has exploded
+    public float radius = 5f; // Explosion radius
+    public float power = 10f; // Explosion power
 
-    // Start is called before the first frame update
     void Start()
     {
         countdown = delay;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        // Reduce the countdown timer by the time passed since last frame
-        countdown -= Time.deltaTime;
-
-        // Check if the countdown is over and the bomb hasn't exploded yet
-        if (countdown <= 0f && !hasExploded)
+        if (hasExploded)
         {
-            Explode();
-            hasExploded = true;
+            // Reduce the countdown timer only after the bomb has been triggered to explode
+            countdown -= Time.deltaTime;
+
+            // Check if the countdown is over
+            if (countdown <= 0f)
+            {
+                Explode();
+            }
+        }
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        // Check for trigger with an object tagged "HitBox"
+        if (other.CompareTag("HitBox") && !hasExploded)
+        {
+            hasExploded = true; // Set the bomb to explode, countdown starts
         }
     }
 
     void Explode()
     {
-        // Here you can put your explosion logic, such as playing an animation, sound, or instantiating explosion effects
-        Debug.Log("Boom!"); // Log message for debugging
+        Debug.Log("Boom!"); // Log explosion for debugging
 
-        // For example, you can destroy the bomb game object (or disable it if you prefer)
-        Destroy(gameObject);
+        // Make the collider a trigger to ensure it does not physically interact while exploding
+        Collider[] colliders = Physics.OverlapSphere(transform.position, radius);
+        foreach (Collider hit in colliders)
+        {
+            Rigidbody rb = hit.GetComponent<Rigidbody>();
+            if (rb != null)
+            {
+                rb.AddExplosionForce(power, transform.position, radius);
+            }
+        }
+
+        // Optionally, instantiate explosion effects or sounds here
+
+        Destroy(gameObject); // Destroy the bomb object to simulate that it has exploded
     }
 }

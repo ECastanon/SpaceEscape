@@ -11,6 +11,7 @@ TagManager:
   - Five
   - Six
   - Bomb
+  - HitBox
   layers:
   - Default
   - TransparentFX
