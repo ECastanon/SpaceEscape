@@ -11,7 +11,11 @@ TagManager:
   - Five
   - Six
   - Bomb
+<<<<<<< HEAD
   - HitBox
+=======
+  - Sphere
+>>>>>>> c63e61057b623532bc515311d8c134f9dca80bca
   layers:
   - Default
   - TransparentFX
